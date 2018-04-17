@@ -1,0 +1,13 @@
+.modal-header {
+  background-color: darkslategrey;
+  color: snow;
+}
+  .img-responsive{
+    width:90px;
+    height:90px;
+  }
+  .head {
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+
