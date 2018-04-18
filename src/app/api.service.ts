@@ -8,7 +8,9 @@ export class ApiService{
 
   giveresponse()
   {
-    return this.http.get("https://api.vaetas.com/auth/login?email=101.prashant@gmail.com&password=rajneesh");
+    const uname:String ='101.prashant@gmail.com';
+    const pword:String = 'rajneesh';
+    return this.http.get('https://api.vaetas.com/auth/login?email='+uname+'&password='+pword);
   }
 
 }

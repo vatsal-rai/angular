@@ -1,0 +1,16 @@
+.my-body{
+  height:100vh;
+  background-color: darkgrey;
+  padding:100px;
+
+}
+.login{
+  color:snow;
+  margin-left:400px;
+  padding:50px;
+}
+.signup{
+  color:snow;
+  margin-left:400px;
+  padding:50px;
+}
