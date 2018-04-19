@@ -1,0 +1,4 @@
+ interface UserResponse{
+  token:String;
+
+}

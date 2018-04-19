@@ -1,4 +1,4 @@
-import {Injectable} from "@angular/core";
+import {EventEmitter, Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 
 
@@ -6,11 +6,7 @@ import {HttpClient} from "@angular/common/http";
 export class ApiService{
   constructor(private http: HttpClient){}
 
-  giveresponse()
-  {
-    const uname:String ='101.prashant@gmail.com';
-    const pword:String = 'rajneesh';
-    return this.http.get('https://api.vaetas.com/auth/login?email='+uname+'&password='+pword);
-  }
+  unameentered =new EventEmitter<String>();
+  pwordentered =new EventEmitter<String>();
 
 }

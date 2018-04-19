@@ -12,10 +12,11 @@ import  {HttpClientModule,HttpClient} from "@angular/common/http";
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 
+
 const appRoutes:Routes=[
   {path:'',component:HomeComponent},
   {path:'profile',component:ProjectsComponent},
-  {path:'login',component:LoginComponent}]
+  {path:'login',component:LoginComponent}];
 
 
 
